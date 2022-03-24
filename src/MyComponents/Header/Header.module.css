@@ -1,0 +1,49 @@
+.logoArea {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logoIcon {
+    width: 170px;
+    height: 50px;
+}
+.mainHeader {
+    position: relative;;
+    height: 100px;
+    background: url('../../assets/header.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.mainHeaderTime,
+.mainHeaderDate {
+    margin: 5px 0;
+}
+.mainHeaderTime {
+    font-size: 1.4rem
+}
+.mainHeaderDate {
+    font-weight: lighter;
+}
+
+.calendarTab {
+    display: block;
+    position: absolute;
+    bottom: -25px;
+    width: 100px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: black;
+    z-index: 200;
+    background-color: rgb(40, 72, 134);
+    color: #fff;
+    padding: 5px;
+    border-radius: 25px;
+    text-transform: uppercase;
+}

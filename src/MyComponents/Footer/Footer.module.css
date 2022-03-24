@@ -1,0 +1,43 @@
+.mainFooter {
+    height: 200px;
+    background: url('../../assets/footer.png');
+    background-position: center;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.footerLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.footerLink {
+    cursor: pointer;    
+}
+
+.footerLink:hover {
+    color: #eee;
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.socialLink {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    transition: all 0.5s ease-in;
+}
+
+.socialLink:hover {
+    transform: rotate(360deg);
+    color: #eee;
+    cursor: pointer;
+}

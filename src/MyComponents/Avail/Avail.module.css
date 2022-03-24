@@ -1,0 +1,55 @@
+
+.availWrapper {
+    padding: 30px;
+    color: grey;
+}
+
+.availHeader {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    width: 30%;
+}
+
+.availHeader img {
+    width: 40px;
+    height: 40px;
+}
+
+.availHeader p {
+    margin-left: 5px;
+}
+
+.availMain {
+    display: flex;
+    justify-content: center;
+}
+
+.availDays {
+    position: relative;
+    width: 30%;
+}
+
+.availDays * {
+    margin: 15px 0;
+}
+
+.availDays label {
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+.availDays input[type="text"],
+.availDays span {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    outline: none;
+}
+
+.availCheck {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
