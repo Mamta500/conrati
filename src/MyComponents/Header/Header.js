@@ -1,28 +1,3 @@
-// import React from "react";
-// import '../../App.css';
-// import logo from '../../assets/logo.png'
-// import header from '../../assets/header.png'
-
-// export default function Header() {
-//     return(
-        
-//             <>
-//             <div>
-//                 <img className="img-class" src={logo} alt="Logo" />
-//             </div>
-//             <div className="container">
-//                 <img className="img-class1" src={header} alt="BlueHeader" />
-//                 <div className="centered">
-//                     <h3>11:45 Tuesday</h3>
-//                     <p>05 September 2018</p>
-//                 </div>
-//             </div>
-//             </>
-            
-            
-//     )
-// }
-
 import React from 'react';
 import styles from './Header.module.css';
 import Times from '../../config/time'
