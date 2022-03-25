@@ -15,6 +15,7 @@ class Login extends Component {
 
 
     return(
+        <>
         <div id= "signInButton">
             <GoogleLogin
             clientId= {clientId}
@@ -25,6 +26,7 @@ class Login extends Component {
             />
 
         </div>
+        </>
     );
 
 }
